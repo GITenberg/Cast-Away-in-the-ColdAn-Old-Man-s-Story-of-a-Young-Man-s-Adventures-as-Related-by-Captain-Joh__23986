@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '26154'
     url: http://www.gutenberg.org/2009/agents/26154
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/23986#Cast-Away-in-the-ColdAn-Old-Man-s-Story-of-a-Young-Man-s-Adventures-as-Related-by-Captain-Joh_
 gutenberg_issued: '2007-12-23'
 gutenberg_type: Text
 identifiers:
