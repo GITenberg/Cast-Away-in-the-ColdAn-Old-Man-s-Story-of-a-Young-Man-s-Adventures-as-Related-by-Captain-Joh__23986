@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/23986">
-    <dcterms:title>Cast Away in the Cold
-An Old Man's Story of a Young Man's Adventures, as Related by Captain John Hardy, Mariner</dcterms:title>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N9e00d9eccdd94df5b070ac5101a1f922">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N374c4209454d48f5b198935867300124">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na04681bb56134d6ea4d943e6ec6a5223">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165562</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6a0c68fdaf754cf7bdea07593c79cff9">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    </dcterms:type>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/26154">
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1832</pgterms:birthdate>
@@ -40,97 +22,90 @@ An Old Man's Story of a Young Man's Adventures, as Related by Captain John Hardy
         <pgterms:name>Hayes, I. I. (Isaac Israel)</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-h/23986-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523737</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3c6f1c28c0ab498babfa358a792ca319">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:16:54</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nbf718ee4c5f84751a53ae380a5195ba8">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Sailors -- Juvenile fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4a6761bdd7404868ad0c9588753722af">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Rescues -- Juvenile fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N7fa4f5a4882548feac9397940a70fae4">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451262</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N74e18cddcca04b9e816a59560c1db615">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:27:39.385004</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199683</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfc1d83b987644fe2b3f28a379cc13f81">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:27:41.540848</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-h.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:21:09</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3706327</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf451273b594d484d8a520d61770c47f0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc0117eac2834a86b99b6a4a62ddc306">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-23</dcterms:issued>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N76157dbdeaa345eeae828c6f6f07f8dd">
+      <rdf:Description rdf:nodeID="N66f3c11b224740e69a4269d393aecc04">
         <rdf:value>Arctic regions -- Juvenile fiction</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:27:59.932422</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3863888</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na4dded9a45c049f3a28426ab3f7c66f2">
+          <rdf:Description rdf:nodeID="N3d893a331d9944248f2914e39c61592b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165558</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne274a71e27fc4693a927241792b73a34">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451300</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8b14395d2b1244018a17436e1c368d7e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N3c415f678eec45d892bb5dfd21a31ea8">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14052</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4c449333ec7842a28b3128d419a1d8d7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:18:34.881834</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-h/23986-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:16:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf5361b769c154b86991538668dfa25aa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523737</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N02cfc1ae804349cbbb0e043c6bf3ef00">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Rescues -- Juvenile fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196331</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:56:15.668644</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N95893adccf5d4382bd0f0e7a91e85c9b">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
@@ -138,31 +113,22 @@ An Old Man's Story of a Young Man's Adventures, as Related by Captain John Hardy
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T06:27:52.175555</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227394</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c98da7a88f5414497e1967776186a7d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-8.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165562</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc508ee42923447de99e626d55497a329">
+          <rdf:Description rdf:nodeID="N5a25c1bdc8814cf88eef851ffcb528cb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451300</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N559a30c621d54b29a63f205c3a823ba0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
@@ -171,92 +137,116 @@ An Old Man's Story of a Young Man's Adventures, as Related by Captain John Hardy
         <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8fb6e0562c314612b867914ee2f14299">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N4729453d82af46e2af9c5791e7aa875c">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1281400</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6738820</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:56:20.495565</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:28:08.553810</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N23138e9aeb96438ab2e77c5851744959">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nacaa041af255428bba8ea57318c7c721">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N61820b5213ad48848e23cc1d22076ab7">
+        <rdf:value>PZ</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N15161b5e277049bebb2dce99b0f72c7e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Survival skills -- Juvenile fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:title>Cast Away in the Cold
+An Old Man's Story of a Young Man's Adventures, as Related by Captain John Hardy, Mariner</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:56:15.210654</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3961910</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb708dcfde584488da6e55c28bce3fee7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="N4912332ef95b4768ab5dc48ea5d8f8c4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/23986/23986-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf19fb675dfb74283a83f0d607d5d3a66">
+          <rdf:Description rdf:nodeID="Nf34f4eee55434623b6277bf77b6113d5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:13:47</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165558</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T06:27:57.321394</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259418</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N17860aec49514792b84100b1d6d48059">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
+          <rdf:Description rdf:nodeID="Ne7dc7bab74fb4515b7cac18b94d94e4e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3706327</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-12-23T15:21:09</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311012</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T19:28:01.608758</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">806339</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:56:22.263613</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncbbe568a43f649529ffc297f0461e1d6">
+          <rdf:Description rdf:nodeID="Ne80bb2e57cc64d4ab87896205b2a8df9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/23986.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451264</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T01:56:08.045794</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/23986"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb1927bd1c4ba453f929f9757ea0b1784">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nafcf8909f2e845b78cb1cbf41aace0f1">
+      <rdf:Description rdf:nodeID="Nd893bf24883a4e69a04aae3977ff247f">
+        <rdf:value>Sailors -- Juvenile fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N221330a6ba1f43b2bf968cc5b640ff54">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Natural history -- Juvenile fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb5419aec72d54d549dc5d1351787d070">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Survival skills -- Juvenile fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N1da455435cb14e31b6b3cb7f4aa8e959">
-        <rdf:value>PZ</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-23</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
